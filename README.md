@@ -20,18 +20,18 @@ transformers == 4.0.1<br>
 | `KoELECTRA-Base`  | Discriminator |     12 |            768 |         768 |      12 |
 
 
-- <b>실행 방법</b>  
-<t>모든 셀 실행<br>
-<t><b>1) 데이터 전처리<br>
-<t><b>2) 모델 구현 및 학습<br>
-<t><b>3) test dataset 결과 확인 학습 모델 저장</b>
+- <b>실행 방법 : 모든 셀 실행<br>
 
 
 - <b>데이터 출처</b>  
 <t>[https://github.com/e9t/nsmc.git](https://github.com/e9t/nsmc.git)
 
 - <b>참고문헌 및 코드</b>    
-<t>[KoELECTRA 참고 소스 코드: https://blog.naver.com/horajjan/221739630055](https://blog.naver.com/horajjan/221739630055)
+ <t>[참고 소스 코드: https://blog.naver.com/horajjan/221739630055](https://blog.naver.com/horajjan/221739630055)<br>
+ <t>[참고 소스 코드2: http://yonghee.io/bert_binary_classification_naver/](http://yonghee.io/bert_binary_classification_naver/)<br>
+ <t>[참고 소스 코드3: https://colab.research.google.com/drive/1tIf0Ugdqg4qT7gcxia3tL7und64Rv1dP#scrollTo=P58qy4--s5_x](https://colab.research.google.com/drive/1tIf0Ugdqg4qT7gcxia3tL7und64Rv1dP#scrollTo=P58qy4--s5_x)<br>
+ <t>[참고 소스 코드3: https://github.com/monologg/KoELECTRA](https://github.com/monologg/KoELECTRA)<br>
+ 
 
 <br>
 
