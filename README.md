@@ -26,19 +26,23 @@ transformers == 4.0.1<br>
 - <b>데이터 출처</b>  
 <t>[https://github.com/e9t/nsmc.git](https://github.com/e9t/nsmc.git)
 
+
 - <b>참고문헌 및 코드</b>    
- <t>[1. 네이버 영화리뷰 감성분석 with Hugging Face BERT](https://colab.research.google.com/drive/1tIf0Ugdqg4qT7gcxia3tL7und64Rv1dP#scrollTo=P58qy4--s5_x)<br>
- <t>[2. BERT로 네이버 영화 리뷰데이터 분류하기](http://yonghee.io/bert_binary_classification_naver/)<br>
- <t>[3. monologg/KoELECTRA Gitgub](https://github.com/monologg/KoELECTRA)<br>
- <t>[4. BERT에 대해 쉽게 알아보기](https://ebbnflow.tistory.com/151)<br>
+ <t>[1. BERT로 네이버 영화 리뷰데이터 분류하기](http://yonghee.io/bert_binary_classification_naver/)<br>
+ <t>[2. monologg/KoELECTRA Gitgub](https://github.com/monologg/KoELECTRA)<br>
+ <t>[3. BERT에 대해 쉽게 알아보기](https://ebbnflow.tistory.com/151)<br>
+ <t>[4. BERT 톺아보기](http://docs.likejazz.com/bert/)<br>
 <br>
 
 
 ### 2. Friends 영화 대본 데이터 감정 분석
 
  - 코드 :  BERT_friends_sentiment_analysis.ipynb
- - 활용모델 : BERT-Large, Cased (Original)
- 24-layer, 1024-hidden, 16-heads, 340M parameters
+ - 활용모델 : BERT-Large, Cased(Original)
+
+|                                | Layers | Embedding Size | Hidden Size | # heads |
+| ------------------------------ | -----: | -------------: | ----------: | ------: |
+| `BERT-Large, Cased(Original)`  |     24 |           1024 |        1024 |      16 |
 
 - <b>실행 방법</b>  
 <t>1.  `friends_train.json`, `friends_dev.json`, `friends_test.json`을 압축한 파일 `Friends.zip`을 업로드한 후 unzip 실행  
@@ -46,11 +50,10 @@ transformers == 4.0.1<br>
 
 
 - <b>데이터 출처</b>  
-<t>[http://doraemon.iis.sinica.edu.tw/emotionlines/index.html](http://doraemon.iis.sinica.edu.tw/emotionlines/index.html)
+<t>[emotionlines](http://doraemon.iis.sinica.edu.tw/emotionlines/)
 
 
-- <b>참고문헌 및 코드</b>  
-<t>[모델 학습 관련 소스코드 : https://colab.research.google.com/drive/1tIf0Ugdqg4qT7gcxia3tL7und64Rv1dP](https://colab.research.google.com/drive/1tIf0Ugdqg4qT7gcxia3tL7und64Rv1dP)
-
-
-<br>
+- <b>참고문헌 및 코드<br>
+<t>[1. Google Research Github](https://github.com/google-research/bert)<br>
+<t>[2. 네이버 영화리뷰 감성분석 with Hugging Face BERT](https://colab.research.google.com/drive/1tIf0Ugdqg4qT7gcxia3tL7und64Rv1dP)<br>
+<t>[3. Emotions classification with ELECTRA](https://github.com/jiwonny/nlp_emotion_classification/blob/master/friends_electra.ipynb)<br>
