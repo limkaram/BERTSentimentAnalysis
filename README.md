@@ -45,9 +45,10 @@ transformers == 4.0.1<br>
 | `BERT-Large, Cased(Original)`  |     24 |           1024 |        1024 |      16 |
 
 - <b>실행 방법</b>  
-<t>1.  데이터 출처란 URL 통해 `EmotionLines_friends_annotation.tar` 다운로드 후 본인의 Google Drive 업로드
-<t>2.  모든 셀 실행
+<t>1.  데이터 출처란 URL 통해 `EmotionLines_friends_annotation.tar` 다운로드 후 본인의 Google Drive 업로드<br>
+<t>2.  모든 셀 실행<br>
 <t>3.  초기 Colab ↔ Google Drive간 연동을 위해 Colab 셀 결과 URL 클릭 후 할당받은 인증번호 입력 및 Enter
+ <br>
 
 
 - <b>데이터 출처</b>  
