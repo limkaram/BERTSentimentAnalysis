@@ -45,12 +45,13 @@ transformers == 4.0.1<br>
 | `BERT-Large, Cased(Original)`  |     24 |           1024 |        1024 |      16 |
 
 - <b>실행 방법</b>  
-<t>1.  `friends_train.json`, `friends_dev.json`, `friends_test.json`을 압축한 파일 `Friends.zip`을 업로드한 후 unzip 실행  
-<t>2.  이후 모든 셀 실행을 통해 <b>1) 데이터 전처리, 2) 모델 구현 및 학습, 3) test set 결과 확인 및 csv 파일 변환</b> 가능.
+<t>1.  데이터 출처란 URL 통해 `EmotionLines_friends_annotation.tar` 다운로드 후 본인의 Google Drive 업로드
+<t>2.  모든 셀 실행
+<t>3.  초기 Colab ↔ Google Drive간 연동을 위해 Colab 셀 결과 URL 클릭 후 할당받은 인증번호 입력 및 Enter
 
 
 - <b>데이터 출처</b>  
-<t>[emotionlines](http://doraemon.iis.sinica.edu.tw/emotionlines/)
+<t>[EmotionLines Friends](http://doraemon.iis.sinica.edu.tw/emotionlines/download.html)
 
 
 - <b>참고문헌 및 코드<br>
