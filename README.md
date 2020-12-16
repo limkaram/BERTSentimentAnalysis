@@ -24,7 +24,7 @@ transformers == 4.0.1<br>
 
 
 - <b>데이터 출처</b>  
-<t>[https://github.com/e9t/nsmc.git](https://github.com/e9t/nsmc.git)
+<t>[Naver sentiment movie corpus v1.0](https://github.com/e9t/nsmc.git)
 
 
 - <b>참고문헌 및 코드</b>    
